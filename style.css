@@ -57,7 +57,9 @@ font-size: 0.9em;
   color: hsl(300, 43%, 22%);
   font-weight: bold;
 }
-
+#box-container{
+  display:flex;
+}
 .comment-header {
   display: grid;
   grid-template-columns: 20% 80%;
