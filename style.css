@@ -23,6 +23,14 @@ font-size: 0.9em;
 .header > p{
   color: grey;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 .wrapper {
   display: flex;
@@ -47,7 +55,7 @@ font-size: 0.9em;
 .comment {
   min-height: 100px;
   padding: 1.5em;
-  max-width: 80%;
+  max-width: 27%;
   margin: 5px;
 }
 
@@ -101,7 +109,7 @@ font-size: 0.9em;
   .main-container {
     display: flex;
     /* grid-template-columns: 50% 50%; */
-    flex-direction: column;
+/*     flex-direction: column; */
 }
 
   }
@@ -131,4 +139,9 @@ font-size: 0.9em;
     /* margin: 5px; */
     flex-wrap: wrap;
     align-content: center;
+}
+@media screen and (max-width: 834px){
+main {
+  height:auto;
+  }
 }
