@@ -25,7 +25,8 @@ font-size: 0.9em;
 }
 
 .wrapper {
-  display: grid;
+  display: flex;
+/*   flex-direction:column; */
   grid-column: auto;
   grid-auto-columns: minmax(1em, auto);
   justify-items: center;
