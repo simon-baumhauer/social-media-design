@@ -31,9 +31,7 @@ main{
     align-items: center;
     height: 100%;
 }
-.main-container{
-  height:auto;
-}
+
 .wrapper {
   display: flex;
 /*   flex-direction:column; */
@@ -141,4 +139,9 @@ main{
     /* margin: 5px; */
     flex-wrap: wrap;
     align-content: center;
+}
+@media screen and (max-width: 834px){
+main {
+  height:auto;
+  }
 }
