@@ -116,12 +116,19 @@ font-size: 0.9em;
     padding: 0;
 
   }
-
-  .rating {
+.rating {
     widows: 50%;
     padding: 0;
     margin: 0;
     grid-column: 2/3;
     grid-column: 1/2;
   }
+  
+}
+@media screen and (max-width: 534px){
+    display: flex;
+    flex-direction: column;
+    /* margin: 5px; */
+    flex-wrap: wrap;
+    align-content: center;
 }
