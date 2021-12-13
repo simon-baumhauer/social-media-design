@@ -38,7 +38,7 @@ font-size: 0.9em;
 
 .box {
   background: hsl(300, 43%, 22%);
-  width: 65%;
+/*   width: 65%; */
   padding: 1.2rem;
   border-radius: 8px;
   color: white;
